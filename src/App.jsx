@@ -1,11 +1,16 @@
-import Navigation from "../components/Navigation"
+import Navigation from "../components/Navigation";
+import Header from "../components/Header";
 
 function App() {
 
   return (
-    <div>
+    <section className="page-content">
       <Navigation />
-    </div>
+      <div>
+        <Header />
+
+      </div>
+    </section>
   )
 }
 
