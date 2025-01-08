@@ -1,5 +1,6 @@
 import Navigation from "../components/Navigation";
 import Header from "../components/Header";
+import PageContent from "../components/PageContent";
 
 function App() {
 
@@ -8,7 +9,7 @@ function App() {
       <Navigation />
       <div className="body-content">
         <Header />
-
+        <PageContent />
       </div>
     </section>
   )

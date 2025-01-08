@@ -14,7 +14,7 @@ export default function HeaderBtns() {
                     English 
                     <img src={chevronDown} alt="" />
                 </button>
-                <button className="setting">
+                <button className="neutral">
                     <img src={setting} alt="" />
                 </button>
             </div>
