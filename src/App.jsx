@@ -6,7 +6,7 @@ function App() {
   return (
     <section className="page-content">
       <Navigation />
-      <div>
+      <div className="body-content">
         <Header />
 
       </div>

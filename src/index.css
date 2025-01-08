@@ -119,7 +119,98 @@ nav {
 /* Page Content */
 
 .page-content {
-  width: 100vw;
+  width: 100%;
   display: flex;
   align-items: start;
+}
+
+.body-content {
+  width: 100%;
+}
+
+button {
+  font-family: inherit;
+  cursor: pointer;
+}
+
+/* Header */
+header {
+  width: 100%;
+  padding: 1.15rem 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  border-bottom: 2px solid #F1F2F5;
+}
+
+.header-content {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-text h1 {
+  color: #1B1F28;
+  margin-bottom: 4px;
+}
+
+.header-text p {
+  color: #49546C;
+}
+
+.header-btns,
+.btn-containers {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 1rem;
+}
+
+button.rate-check {
+  border: none;
+  background-color: transparent;
+  color: #2467E3;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 0.875rem;
+}
+
+button.lang-check {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  padding: 12px 8px;
+  border-radius: 100px;
+  height: 40px;
+  aspect-ratio: 3/1;
+  background-color: transparent;
+  color: #333333;
+  border: 2px solid #F1F2F5;
+  font-size: 0.75rem;
+}
+
+button.setting {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: transparent;
+  border: 2px solid #F1F2F5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button.account {
+  height: 40px;
+  width: 40px;
+  padding: 8px 12px;
+  border-radius: 50%;
+  border: none;
+  background-color: #DADEE7;
+  color: #1B1F28;
+  font-size: 1rem;
 }

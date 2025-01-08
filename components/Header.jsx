@@ -4,8 +4,10 @@ import HeaderBtns from "./HeaderBtns";
 export default function Header() {
     return (
         <header>
-            <HeaderText />
-            <HeaderBtns />
+            <div className="header-content">
+                <HeaderText />
+                <HeaderBtns />
+            </div>
         </header>
     )
 }
